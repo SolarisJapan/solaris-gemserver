@@ -1,4 +1,4 @@
-# Solaris Gemserver
+# Solaris Gemserver :gem:
 
 Private gem hosting powered by [Gem in a Box](https://github.com/geminabox/geminabox).
 
