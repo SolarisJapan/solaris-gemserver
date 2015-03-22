@@ -2,13 +2,13 @@
 
 Private gem hosting powered by [Gem in a Box](https://github.com/geminabox/geminabox).
 
-# Usage
+## Usage
 
 1. Specify ``auth_username`` and ``auth_password`` ENV variables.
 2. ``foreman start`` or ``rackup``
 3. Add ``source 'https://username:password@gems.example.com'`` to your Gemfile.
 
-# Pushing Gems
+## Pushing Gems
 
 Since version 0.10, Geminabox supports the standard gemcutter push API:
 
