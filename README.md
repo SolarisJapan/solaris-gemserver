@@ -27,3 +27,15 @@ Configure Gem in a box (interactive prompt to specify where to upload to):
 Change the host to upload to:
 
     gem inabox -g HOST
+
+## Deploying Solaris Gemserver
+
+The Solaris Gemserver is deployed with Dokku. Add a git remote for Dokku.
+```
+git remote add dokku dokku@45.55.175.183:gems.slrs.io
+```
+
+To deploy an update, simply push the updated branch to the dokku host. This step requires ssh access to the dokku user on the target host.
+```
+git push dokku master
+```
